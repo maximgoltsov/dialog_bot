@@ -1,0 +1,20 @@
+{
+  "name": "DialogBot",
+  "version": "1.0.0",
+  "description": "DialogBot",
+  "main": "dist/app.js",
+  "author": "Maxim Goltsov",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "5.3.3"
+  },
+  "scripts": {
+    "build": "tsc dist/app.ts",
+    "start": "node dist/app.js"
+  },
+  "dependencies": {
+    "telegraf": "4.15.3"
+  }
+}
